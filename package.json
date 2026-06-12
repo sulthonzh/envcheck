@@ -1,0 +1,22 @@
+{
+  "name": "envcheck",
+  "version": "1.0.0",
+  "description": "Validate .env files against a schema. Catch missing vars, wrong types, and sneaky typos before production.",
+  "main": "src/index.js",
+  "bin": {
+    "envcheck": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": ["env", "dotenv", "validate", "schema", "config", "zero-deps"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/envcheck"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
