@@ -9,7 +9,14 @@
   "scripts": {
     "test": "node test/index.test.js"
   },
-  "keywords": ["env", "dotenv", "validate", "schema", "config", "zero-deps"],
+  "keywords": [
+    "env",
+    "dotenv",
+    "validate",
+    "schema",
+    "config",
+    "zero-deps"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
   "repository": {
@@ -18,5 +25,10 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
 }
